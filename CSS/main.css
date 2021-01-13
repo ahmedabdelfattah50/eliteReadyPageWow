@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;     
 } 
+
+body {
+    overflow: hidden;
+}
+
 /* ######################### Start animationPageLogo Page ######################### */
 /* ===== Start animationPageLogo ===== */
 .animationPageLogo {
@@ -17,86 +22,43 @@
 .animationPageLogo .logoSplitedImages img:nth-child(1) {
     width: 370px;
     height: 250px;
-    /* animation: eliteImgAnimate 2s alternate infinite ease-in-out; */
 }
-
-/* @keyframes eliteImgAnimate {
-    0% {
-        -webkit-transform: translate(-30px , -40px);
-            -moz-transform: translate(-30px , -40px);
-                -o-transform: translate(-30px , -40px);
-                    -ms-transform: translate(-30px , -40px);
-                        transform: translate(-30px , -40px);
-    }
-} */
 
 .animationPageLogo .logoSplitedImages img:nth-child(2) {
     width: 200px;
     height: 18px;
     margin: 270px 0 0 60px;
-    /* animation: fancyFoodImgAnimate 2s alternate infinite ease-in-out; */
 }
 
-/* @keyframes fancyFoodImgAnimate {
-    0% {
-        -webkit-transform: translate(-50px , 0px);
-            -moz-transform: translate(-50px , 0px);
-                -o-transform: translate(-50px , 0px);
-                    -ms-transform: translate(-50px , 0px);
-                        transform: translate(-50px , 0px);
-    }    
-} */
-
-.animationPageLogo .logoSplitedImages img:nth-child(3) {
+.animationPageLogo .logoSplitedImages .leafImg {
     width: 70px;
     height: 60px;
     margin: 235px 0 0 359px;
-    /* animation: fancyLeafsImgAnimate 2s alternate infinite ease-in-out; */
+    animation: fancyLeafsImgAnimate 1.5s alternate ease-in-out;
 }
 
-/* @keyframes fancyLeafsImgAnimate {
+@keyframes fancyLeafsImgAnimate {
     0% {
-        -webkit-transform: translate(30px , 0px);
-            -moz-transform: translate(30px , 0px);
-                -o-transform: translate(30px , 0px);
-                    -ms-transform: translate(30px , 0px);
-                        transform: translate(30px , 0px);
+        -webkit-transform: translate(30px , -130px);
+            -moz-transform: translate(30px , -130px);
+                -o-transform: translate(30px , -130px);
+                    -ms-transform: translate(30px , -130px);
+                        transform: translate(30px , -130px);
+        opacity: 0;
     }
-} */
+}
 
 .animationPageLogo .logoSplitedImages img:nth-child(4) {
     width: 40px;
     height: 30px;
     margin: 85px 0 0 -185px;
-    /* animation: fancyGreenLeafImgAnimate 2s alternate infinite ease-in-out; */
 }
-
-/* @keyframes fancyGreenLeafImgAnimate {
-    0% {
-        -webkit-transform: translate(10px , 50px);
-            -moz-transform: translate(10px , 50px);
-                -o-transform: translate(10px , 50px);
-                    -ms-transform: translate(10px , 50px);
-                        transform: translate(10px , 50px);
-    }
-}  */
 
 .animationPageLogo .logoSplitedImages img:nth-child(5) {
     margin: -20px 0 0 115px;
     width: 20px;
     height: 20px;
-    /* animation: fancyDotImgAnimate 2s alternate infinite ease-in-out; */
 }
-
-/* @keyframes fancyDotImgAnimate {
-    0% {
-        -webkit-transform: translate(30px , -100px);
-            -moz-transform: translate(30px , -100px);
-                -o-transform: translate(30px , -100px);
-                    -ms-transform: translate(30px , -100px);
-                        transform: translate(30px , -100px);
-    }
-} */
 
 .animationPageLogo .brandsIcons {
     padding: 50px 0;
@@ -152,64 +114,35 @@
         width: 300px;
         height: 180px;
     }
-    
-    /* @keyframes eliteImgAnimate {
-        0% {
-            -webkit-transform: translate(-30px , -30px);
-                -moz-transform: translate(-30px , -30px);
-                    -o-transform: translate(-30px , -30px);
-                        -ms-transform: translate(-30px , -30px);
-                            transform: translate(-30px , -30px);
-        }
-    } */
-    
+        
     .animationPageLogo .logoSplitedImages img:nth-child(2) {
         width: 180px;
         height: 15px;
         margin: 205px 0 0 40px;
     }
     
-    /* @keyframes fancyFoodImgAnimate {
-        0% {
-            -webkit-transform: translate(-50px , 0px);
-                -moz-transform: translate(-50px , 0px);
-                    -o-transform: translate(-50px , 0px);
-                        -ms-transform: translate(-50px , 0px);
-                            transform: translate(-50px , 0px);
-        }    
-    } */
-    
     .animationPageLogo .logoSplitedImages img:nth-child(3) {
         width: 55px;
         height: 50px;
         margin: 174px 0 0 290px;
     }
-    
-    /* @keyframes fancyLeafsImgAnimate {
+
+    @keyframes fancyLeafsImgAnimate {
         0% {
-            -webkit-transform: translate(20px , 0px);
-                -moz-transform: translate(20px , 0px);
-                    -o-transform: translate(20px , 0px);
-                        -ms-transform: translate(20px , 0px);
-                            transform: translate(20px , 0px);
+            -webkit-transform: translate(20px , -100px);
+                -moz-transform: translate(20px , -100px);
+                    -o-transform: translate(20px , -100px);
+                        -ms-transform: translate(20px , -100px);
+                            transform: translate(20px , -100px);
+            opacity: 0;
         }
-    } */
-    
+    }
+       
     .animationPageLogo .logoSplitedImages img:nth-child(4) {
         width: 40px;
         height: 20px;
         margin: 65px 0 0 -153px;
     }
-    
-    /* @keyframes fancyGreenLeafImgAnimate {
-        0% {
-            -webkit-transform: translate(10px , 40px);
-                -moz-transform: translate(10px , 40px);
-                    -o-transform: translate(10px , 40px);
-                        -ms-transform: translate(10px , 40px);
-                            transform: translate(10px , 40px);
-        }
-    }  */
     
     .animationPageLogo .logoSplitedImages img:nth-child(5) {
         margin: -15px 0 0 95px;
@@ -217,16 +150,6 @@
         height: 16px;
     }
     
-    /* @keyframes fancyDotImgAnimate {
-        0% {
-            -webkit-transform: translate(30px , -60px);
-                -moz-transform: translate(30px , -60px);
-                    -o-transform: translate(30px , -60px);
-                        -ms-transform: translate(30px , -60px);
-                            transform: translate(30px , -60px);
-        }
-    } */
-
     .animationPageLogo .brandsIcons {
         padding: 30px 0;
     }
@@ -257,80 +180,30 @@
         height: 120px;
     }
     
-    /* @keyframes eliteImgAnimate {
-        0% {
-            -webkit-transform: translate(-10px , -30px);
-                -moz-transform: translate(-10px , -30px);
-                    -o-transform: translate(-10px , -30px);
-                        -ms-transform: translate(-10px , -30px);
-                            transform: translate(-10px , -30px);
-        }
-    } */
-    
     .animationPageLogo .logoSplitedImages img:nth-child(2) {
         width: 160px;
         height: 15px;
         margin: 145px 0 0 10px;
     }
-    
-    /* @keyframes fancyFoodImgAnimate {
-        0% {
-            -webkit-transform: translate(-20px , 0px);
-                -moz-transform: translate(-20px , 0px);
-                    -o-transform: translate(-20px , 0px);
-                        -ms-transform: translate(-20px , 0px);
-                            transform: translate(-20px , 0px);
-        }    
-    } */
-    
+        
     .animationPageLogo .logoSplitedImages img:nth-child(3) {
         width: 50px;
         height: 40px;
         margin: 121px 0 0 237px;
     }
-    
-    /* @keyframes fancyLeafsImgAnimate {
-        0% {
-            -webkit-transform: translate(10px , 0px);
-                -moz-transform: translate(10px , 0px);
-                    -o-transform: translate(10px , 0px);
-                        -ms-transform: translate(10px , 0px);
-                            transform: translate(10px , 0px);
-        }
-    } */
-    
+      
     .animationPageLogo .logoSplitedImages img:nth-child(4) {
         width: 30px;
         height: 17px;
         margin: 50px 0 0 -120px;
     }
-    
-    /* @keyframes fancyGreenLeafImgAnimate {
-        0% {
-            -webkit-transform: translate(0px , 20px);
-                -moz-transform: translate(0px , 20px);
-                    -o-transform: translate(0px , 20px);
-                        -ms-transform: translate(0px , 20px);
-                            transform: translate(0px , 20px);
-        }
-    }  */
-    
+
     .animationPageLogo .logoSplitedImages img:nth-child(5) {
         margin: -10px 0 0 75px;
         width: 12px;
         height: 12px;
     }
     
-    /* @keyframes fancyDotImgAnimate {
-        0% {
-            -webkit-transform: translate(0px , -40px);
-                -moz-transform: translate(0px , -40px);
-                    -o-transform: translate(0px , -40px);
-                        -ms-transform: translate(0px , -40px);
-                            transform: translate(0px , -40px);
-        }
-    } */
-
     .animationPageLogo .brandsIcons .imageDiv img {
         margin: 10px 0px;
         height: 80px;
