@@ -10,8 +10,6 @@
         <link rel="stylesheet" type="text/css" media="screen" href="CSS/all.css" />
         <link rel="stylesheet" href="CSS/animate.css">
         <link rel="stylesheet" href="CSS/bootstrap.css">  
-        <link rel="stylesheet" href="CSS/owl.carousel.min.css">
-        <link rel="stylesheet" href="CSS/owl.theme.default.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />   
     </head>
     <body>         
@@ -19,35 +17,35 @@
         <div class="animationPageLogo d-flex flex-column justify-content-center align-items-center">
             <div class="logoSplitedImages d-flex justify-content-center align-items-center">
                 <img src="images/fancy 1.png" class="position-absolute wow fadeInLeft" data-wow-delay="0.3s" alt="">
-                <img src="images/fancy 2.png" class="position-absolute wow fadeInLeft" data-wow-delay="0.7s" alt="">
-                <img src="images/fancy 3.png" class="position-absolute wow fadeInRight" data-wow-delay="0.4s" alt="">
+                <img src="images/fancy 2.png" class="position-absolute wow fadeInUpBig" data-wow-delay="0.3s" alt="">
+                <img src="images/fancy 3.png" class="position-absolute leafImg" alt="">
                 <img src="images/fancy 4.png" class="position-absolute wow fadeInUp" data-wow-delay="0.9s" alt="">
                 <img src="images/fancy 5.png" class="position-absolute wow fadeInDown" data-wow-delay="0.8s" alt="">
             </div>
             <div class="brandsIcons d-flex flex-wrap justify-content-center align-items-center">
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="1.8s" class="col-lg-12 col-md-10">
+                <div class="imageDiv wow fadeInUp" data-wow-delay="3s">
                     <img src="images/breakfast.png" alt="">
-                </div>
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="1.5s" class="col-lg-12 col-md-10">
+                </div>       
+                <div class="imageDiv wow fadeInUp" data-wow-delay="2.7s">
                     <img src="images/cheese.png" alt="">
-                </div>
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="1.2s" class="col-lg-12 col-md-10">
+                </div>            
+                <div class="imageDiv wow fadeInUp" data-wow-delay="2.4s">
                     <img src="images/cookies.png" alt="">
-                </div>
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="0.9s" class="col-lg-12 col-md-10">
+                </div>   
+                <div class="imageDiv wow fadeInUp" data-wow-delay="2.1s">
                     <img src="images/jamHoney.png" alt="">
                 </div>
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="0.6s" class="col-lg-12 col-md-10">
+                <div class="imageDiv wow fadeInUp" data-wow-delay="1.8s">
                     <img src="images/milk.png" alt="">
                 </div>
-                <div class="imageDiv wow fadeInLeft" data-wow-delay="0.3s" class="col-lg-12 col-md-10">
+                <div class="imageDiv wow fadeInUp" data-wow-delay="1.5s">
                     <img src="images/breads.png" alt="">
                 </div>
             </div>
-            <a class="skipBtn wow fadeInUp" id="skipBtn" data-wow-delay="1.8s" href="home.html">Skip</a>
+            <a class="skipBtn wow fadeInUp" id="skipBtn" data-wow-delay="3s" href="home.html">Skip</a>
         </div> 
         <!-- ===== End animationPageLogo ===== -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
         <script src="JS/jquery-3.1.0.min.js"></script>
         <script src="JS/propper.js"></script>
         <script src="JS/bootstrap.min.js"></script>
@@ -58,10 +56,10 @@
                 // this for insilize the init of wow.js plugn
                 new WOW().init();  
                 
-               setInterval(function(){
-                    window.location.replace("home.html");
-                }, 3500);  // --------->>>> this is the seconds to wait to go to home page (1000) means 1 second
-                        
+                // setInterval(function(){
+                //     window.location.replace("home.html");
+                // }, 5500);  // --------->>>> this is the seconds to wait to go to home page (1000) means 1 second
+                      
                 // this function use the skip button to go to home page without any return the index page
                 $('#skipBtn').on('click',function(e){
                     e.preventDefault();
